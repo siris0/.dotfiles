@@ -18,4 +18,6 @@ for line in sys.stdin.readlines():
         slug = match.group(1)
         if slug in EXCLUDE_SLUGS:
             continue
+        if slug[-1] == ">":
+            slug = slug[0:-1]
         os.system("open quip://%s" % slug)
