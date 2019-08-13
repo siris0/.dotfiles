@@ -4,7 +4,7 @@ import os
 import re
 import sys
 
-QUIP_BASE_URL = "https://quip.orchard.apple.com/"
+QUIP_BASE_URL = "https://quip-apple.com/"
 
 QUIP_SLUG_REGEX = re.compile(".*%s([^\s]*)" % QUIP_BASE_URL)
 
