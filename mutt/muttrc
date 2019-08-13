@@ -240,3 +240,4 @@ bind index _ collapse-all
 
 # Local overrides
 source ~/.mutt/muttrc.local
+source $alias_file
